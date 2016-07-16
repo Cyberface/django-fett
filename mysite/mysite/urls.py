@@ -23,4 +23,5 @@ urlpatterns = [
     # url(r'^$', include('webapp.urls')),
     url(r'^', include('personal.urls')), #this is the home page
     url(r'^blog/', include('blog.urls')),
+    url(r'^fett/', include('fett.urls')),
 ]
