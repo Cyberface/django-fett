@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% load staticfiles %}
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'fett/css/bootstrap.min.css' %}" type = "text/css"/>
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+
+        	<style type="text/css">
+        		html,
+        		body {
+                  padding-left: 15px;
+        		  height:100%
+        		}
+        	</style>
+        <title>Fett's homepage</title>
+    </head>
+    <!-- <body class="body" style="background-color:#f6f6f6"> -->
+    <body class="">
+        <div>
+            <h1>The Fett</h1>
+        </div>
+        <!-- <div class="container-fluid" style="min-height:25%; "> -->
+        <div class="">
+            {{ fett }}
+        </div>
+        <!-- <div class="container-fluid" style="min-height:25%; "> -->
+        <div class="">
+            <li><a href='/fett/plot'>a simple plot</a></li>
+        </div>
+        <div class="">
+            <p>Hi there!</p>
+            <p>It works!</p>
+            <p>My backpack has jets</p>
+            <p>
+                <a href="https://goo.gl/5fqxNx">The Fett</a>
+            </p>
+            <ul><li>The First Fett</li><li>The Second Fett</li></ul>
+        </div>
+    </body>
+</html>
+
+<html>
+    <head>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">Django Girls Blog</a></h1>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My first post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+
+        <div>
+            <p>published: 14.06.2014, 12:14</p>
+            <h2><a href="">My second post</a></h2>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+        </div>
+    </body>
+</html>

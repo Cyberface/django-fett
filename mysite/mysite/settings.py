@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # 'polls.apps.PollsConfig',
     # 'webapp',
+    'fett',
     'personal',
     'blog',
     'django.contrib.admin',
